@@ -1,0 +1,34 @@
+/* El asterisco sirve para modificar todo en la pag */
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+
+/* 4 coordenadas: left, roght, top, bottom */
+/* position: static, relative, absolute, fixed */
+
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+
+.contenedor{
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+.caja{
+    width: 33%;
+   /* float: left;*/
+    padding:1em; 
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
